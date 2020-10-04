@@ -1,0 +1,63 @@
+# include <WinResrc.h>
+# include "..\\CommonLangIDs.h"
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+# pragma code_page(1252)
+
+STRINGTABLE
+{
+	IDS_MAIN_WINDOW_CLASS				L"OCR ProofEditor Class"
+	IDS_MAIN_WINDOW_TITLE				L"OCR ProofEditor"
+	IDS_EDIT_WINDOW_CLASS				L"ProofEdit Class"
+	IDS_EDIT_WINDOW_TITLE				L"ProofEdit"
+	IDS_SPLASH_WINDOW_CLASS				L"Splash Class"
+	IDS_SPLASH_WINDOW_TITLE				L"Pankh Splash"
+
+	IDS_W_REG_FAIL						L"Window Registration Failed"
+	IDS_W_CREATE_FAIL					L"Window Creation Failed"
+	IDS_W_UL_FAIL						L"Update Layered Window Failed"
+	IDS_BM_LOAD_FAIL					L"Load Image Failed"
+
+	IDS_ERROR							L"Error:"
+	IDS_SAVE_Q							L"Would you like to save changes?\t"
+
+	INC_VALUE_ID(T_FONT_SIZE)			L"Text Font Size"
+	INC_VALUE_ID(WINDOW_WIDTH)			L"Window Width"
+	INC_VALUE_ID(WINDOW_HEIGHT)			L"Window Height"
+	INC_VALUE_ID(WIDTH_BORDER)			L"Width Border"
+	INC_VALUE_ID(HEIGHT_BORDER)			L"Height Border"
+	INC_VALUE_ID(WINDOW_Y_POSITION)		L"Window Y Position"
+	INC_VALUE_ID(N_EDIT_TO_SAVE)		L"Number Edits"
+	INC_VALUE_ID(AUTO_PLAY)				L"Autoplay"
+	INC_VALUE_ID(PLAY_DELAY)			L"Play Delay"
+	INC_VALUE_ID(DEFAULT_SCALE)			L"Default Scale"
+	INC_VALUE_ID(AUTO_SCALE)			L"Auto Scale"
+	INC_VALUE_ID(SHOW_SPLASH)			L"Show Splash Screen"
+	INC_VALUE_ID(TEXT_MODE)				L"Text Mode"
+	INC_VALUE_ID(BROWSE_MODE)			L"Browse Mode"
+	INC_VALUE_ID(BW_MODE)				L"B&W Mode"
+	INC_VALUE_ID(GRAY_MODE)				L"Gray Mode"
+	INC_VALUE_ID(BROWSE_X)				L"Browse X"
+	INC_VALUE_ID(BROWSE_Y)				L"Browse Y"
+	INC_VALUE_ID(DRAW_EXTENTS)			L"Draw Extents"
+	INC_VALUE_ID(DRAW_RECTS)			L"Draw Rects"
+	INC_VALUE_ID(DRAW_BULLETS)			L"Draw Bullets"
+	INC_VALUE_ID(DO_GRAY)				L"Prepare Grayscale"
+	INC_VALUE_ID(I_FONT_SIZE)			L"Index Font Size"
+	INC_VALUE_ID(MARGIN_COLOUR)			L"Margin Colour"
+	INC_VALUE_ID(BULLET_COLOUR)			L"Bullet Colour"
+//	INC_VALUE_ID()	L""
+//	INC_VALUE_ID()	L""
+
+	INC_FLOAT_ID(HEIGHT_RATIO_RECT)		L"Rect Height Ratio"
+	INC_FLOAT_ID(HEIGHT_RATIO_BROWSE)	L"Browse Height Ratio"
+	INC_FLOAT_ID(BROWSE_SCALE)			L"Browse Scale"
+//	INC_FLOAT_ID()
+//	INC_FLOAT_ID()
+
+	INC_STRING_ID(T_FONT_NAME)			L"Text Font Name"
+	INC_STRING_ID(I_FONT_NAME)			L"Index Font Name"
+	INC_STRING_ID(IMG_D_FILE_EXTN)		L"Image File Extension"
+//	INC_STRING_ID()
+//	INC_STRING_ID()
+}
